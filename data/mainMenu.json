@@ -8,12 +8,12 @@
         "visibleInFooter": true
     },
     {
-        "name": "Open Source",
-        "i18nKey": "openSource",
-        "altI18nKey": "openSourceDescription",
-        "link": "/open-source/",
-        "visibleInNavigation": false,
-        "visibleInFooter": false
+        "name": "Blog",
+        "i18nKey": "blog",
+        "altI18nKey": "blogDescription",
+        "link": "/posts/",
+        "visibleInNavigation": true,
+        "visibleInFooter": true
     },
     {
         "name": "About us",
@@ -21,7 +21,17 @@
         "altI18nKey": "aboutUsDescription",
         "link": "/about/",
         "visibleInNavigation": true,
-        "visibleInFooter": true
+        "visibleInFooter": true,
+        "children": [
+            {
+                "name": "Temurin Support",
+                "i18nKey": "temurinSupport",
+                "altI18nKey": "temurinSupportDescription",
+                "link": "/about/temurin-support/",
+                "visibleInNavigation": true,
+                "visibleInFooter": true
+            }
+        ]
     },
     {
         "name": "Contact us",
